@@ -1,32 +1,32 @@
 /////////////////////////////////////////////////
-//                ºô³q­ìLab2                   //
-//              0516215 ªL«G¿o                 //
+//                ç¶²é€šåŽŸLab2                   //
+//                                             //
 //                                             //
 /////////////////////////////////////////////////
 
-¤@¡Bµ{¦¡¦Cªí
+ä¸€ã€ç¨‹å¼åˆ—è¡¨
     1. BPSK.m
     2. BPSK0to10.m
 
-¤G¡Bµ{¦¡¥\¯à»¡©ú
+äºŒã€ç¨‹å¼åŠŸèƒ½èªªæ˜Ž
     1. BPSK.m
-       ¥]§tspec¤WªºStep1¨ìStep6¡A
-       ±NEb©T©w¬°2¡Ainput data©T©w¬°10000bits¡A 
-       Modulate®É¦³­¼¤Wphi1¡ADemodulate®É¦³¹ïs(t)°µ¿n¤À¡C
-       µ{¦¡°õ¦æ«á¡A·|output±Ä¼Ë¥XªºSample_BER(¤@­Ó¼Æ) 
+       åŒ…å«specä¸Šçš„Step1åˆ°Step6ï¼Œ
+       å°‡Ebå›ºå®šç‚º2ï¼Œinput dataå›ºå®šç‚º10000bitsï¼Œ 
+       Modulateæ™‚æœ‰ä¹˜ä¸Šphi1ï¼ŒDemodulateæ™‚æœ‰å°s(t)åšç©åˆ†ã€‚
+       ç¨‹å¼åŸ·è¡Œå¾Œï¼ŒæœƒoutputæŽ¡æ¨£å‡ºçš„Sample_BER(ä¸€å€‹æ•¸) 
 
     2. BPSK0to10.m
-       ¥]§tspec¤WªºStep7¡A
-       ±NEb³]¬°0¨ì10¡A¨Ì·ÓspecªºHint4°µmodulate¸òdemodulate
-       µ{¦¡°õ¦æ«á¡A·|output¤@±i¹Ï¡A
-       ¹Ï¤W¦³¥Î¤½¦¡±o¥X²z½×BER¤§¦±½u¡A¥H¤Î±Ä¼Ë¥XªºSample_BER¤§¸ê®ÆÂI
+       åŒ…å«specä¸Šçš„Step7ï¼Œ
+       å°‡Ebè¨­ç‚º0åˆ°10ï¼Œä¾ç…§specçš„Hint4åšmodulateè·Ÿdemodulate
+       ç¨‹å¼åŸ·è¡Œå¾Œï¼Œæœƒoutputä¸€å¼µåœ–ï¼Œ
+       åœ–ä¸Šæœ‰ç”¨å…¬å¼å¾—å‡ºç†è«–BERä¹‹æ›²ç·šï¼Œä»¥åŠæŽ¡æ¨£å‡ºçš„Sample_BERä¹‹è³‡æ–™é»ž
 
-¤T¡Bµ{¦¡¶}±Ò¤è¦¡
-    1a.¶}±ÒMatlab¡A¨Ã±N¦¹¸ê®Æ§¨¥[¤J°õ¦æ¸ô®|
-    1b.¦bcommand line¿é¤J"BPSK"¡A¥H°õ¦æµ{¦¡
-    1c.µ¥«Ýµ{¦¡°õ¦æ(¬ù15¦Ü20¤ÀÄÁ)
-    1d.µ{¦¡°õ¦æ«á·|²£¥Í¤@­Ó¼Æ¡A´N¬O±Ä¼Ë¥XªºSample_BER
+ä¸‰ã€ç¨‹å¼é–‹å•Ÿæ–¹å¼
+    1a.é–‹å•ŸMatlabï¼Œä¸¦å°‡æ­¤è³‡æ–™å¤¾åŠ å…¥åŸ·è¡Œè·¯å¾‘
+    1b.åœ¨command lineè¼¸å…¥"BPSK"ï¼Œä»¥åŸ·è¡Œç¨‹å¼
+    1c.ç­‰å¾…ç¨‹å¼åŸ·è¡Œ(ç´„15è‡³20åˆ†é˜)
+    1d.ç¨‹å¼åŸ·è¡Œå¾Œæœƒç”¢ç”Ÿä¸€å€‹æ•¸ï¼Œå°±æ˜¯æŽ¡æ¨£å‡ºçš„Sample_BER
     
-    2a.¦bcommand line¿é¤J"BPSK0to10"¡A¥H°õ¦æµ{¦¡
-    2b.µ¥«Ýµ{¦¡°õ¦æ(¬ù2.5¤p®É)
-    2c.µ{¦¡°õ¦æ«á·|²£¥Í¤@±i¹Ï¡A¥]§t²z½×BER¤§¦±½u¥H¤ÎSample_BER¤§¸ê®ÆÂI
+    2a.åœ¨command lineè¼¸å…¥"BPSK0to10"ï¼Œä»¥åŸ·è¡Œç¨‹å¼
+    2b.ç­‰å¾…ç¨‹å¼åŸ·è¡Œ(ç´„2.5å°æ™‚)
+    2c.ç¨‹å¼åŸ·è¡Œå¾Œæœƒç”¢ç”Ÿä¸€å¼µåœ–ï¼ŒåŒ…å«ç†è«–BERä¹‹æ›²ç·šä»¥åŠSample_BERä¹‹è³‡æ–™é»ž
