@@ -1,4 +1,8 @@
-# Communication-Network
-Principles of communications networks 2018-Spring
+# Communication-Networks
+Course: Principles of communications networks 
 
-BPSK modulation
+Semester: 2018-Spring
+
+--
+
+Lab2: BPSK modulation, and then calculate BER
